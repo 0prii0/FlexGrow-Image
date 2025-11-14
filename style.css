@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+}
+html main, body main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+html main section, body main section {
+  height: 100%;
+  flex-grow: 1;
+  border: 1px solid black;
+}
+html main section:hover, body main section:hover {
+  flex-grow: 3;
+  cursor: pointer;
+  transition: all 0.7s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+html main section:nth-child(1), body main section:nth-child(1) {
+  background-image: url("https://images.unsplash.com/photo-1702138129392-364adea0ad00?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3VwZXJtYW4lMjAzZCUyMGltYWdlfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600");
+  background-size: cover;
+}
+html main section:nth-child(2), body main section:nth-child(2) {
+  background-image: url("https://images.unsplash.com/photo-1561149877-84d268ba65b8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FwdGFpbiUyMGFtZXJpY2ElMjAzZCUyMGltYWdlfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600");
+  background-size: cover;
+}
+html main section:nth-child(3), body main section:nth-child(3) {
+  background-image: url("https://i.pinimg.com/474x/0f/54/18/0f5418a649977b88aee72030e880933e.jpg");
+  background-size: cover;
+}
+html main section:nth-child(4), body main section:nth-child(4) {
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/e/e1/Spider-Man_PS4_cover.jpg");
+  background-size: cover;
+}
+html main section:nth-child(5), body main section:nth-child(5) {
+  background-image: url("https://i.pinimg.com/564x/3f/f1/63/3ff1633071207ea368a4732c5fbafbc3.jpg");
+  background-size: cover;
+}/*# sourceMappingURL=style.css.map */
